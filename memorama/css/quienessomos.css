@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .estiloBody {
+    
+        background-color: #6E91A2  ;
+        font-family: 'Kalam', cursive;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgIcono { 
+        height: 40px;
+        margin-right: 20px;
+        
+    }
+
+    .estiloTitulo {
+        font-size: 30px;
+        font-weight: 300px;
+        font-family: 'Courgette', cursive;
+    }
+
+
+.estiloHeader {
+    background-color:  #0A4353 ;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    border-radius: 20px;
+   
+    
+}
+
+.estiloUL { 
+    display: flex;
+}
+.estiloLi {
+    list-style: none;
+    margin: 0px 20px 0px 20px;
+}
+.estiloLink {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    padding: 30px;
+    
+}
+
+.estiloLink:hover{
+background-color: #C0DAE0;
+
+}
+
+.estiloMain { 
+    background-color:  #C0DAE0;	
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.estiloH { 
+    margin: 25px 0px 25px 0px;
+}
+
+.estiloSeccion{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+
+.contenedorImg{
+        /*background-color: gray;*/
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .estiloImagen { 
+      
+        width: 35%;
+        height: 35%;
+        
+     
+       
+     }
+
+     .estiloImagen2 { 
+      
+        width: 40%;
+        height: 40%;
+     
+       
+     }
+
+.estiloFooter { 
+    background-color: #0A4353 ;
+    color: white;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.estiloGitHub {
+    display: flex;
+    margin: 20px;
+}
+.estiloUsuario {
+    display: flex;	
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+.estiloSeccion {
+        flex-direction: column;
+}
+.contenedorImg {
+    width: 100%;
+    align-items: left;
+}
+.contenedorTex {
+    width: 100%;
+    padding: 5px;
+}
+}
